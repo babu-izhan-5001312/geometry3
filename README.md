@@ -23,8 +23,9 @@ If bundler is not being used to manage dependencies, install the gem by executin
     $ gem install geometry3
 
 ## Testing
+To test the code, we execute:
 
-`bundler exec rspec spec`
+    $ bundler exec rspec spec 
 
 ## Development
 

@@ -1,24 +1,22 @@
-# frozen_string_literal: true
 
-require_relative "lib/geometry3/version"
 
 Gem::Specification.new do |spec|
   spec.name = "geometry3"
-  spec.version = Geometry3::VERSION
+  spec.version = '0.0.0'
   spec.authors = ["Babu Mohammed Izhan"]
   spec.email = ["babu.izhan@shopup.org"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Write a short summary, because RubyGems requires one."
+  spec.description = "Write a longer description or delete this line."
+  spec.homepage = "https://github.com/babumohammedizhan/cartesianlength.git"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://example.com"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["homepage_uri"] = "https://github.com/babumohammedizhan/cartesianlength.git"
+  spec.metadata["source_code_uri"] = "https://github.com/babumohammedizhan/cartesianlength.git"
+  spec.metadata["changelog_uri"] = "https://github.com/babumohammedizhan/cartesianlength.git"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
